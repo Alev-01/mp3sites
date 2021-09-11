@@ -1,0 +1,158 @@
+@import url("reset.css");
+#wrapper {
+	width: 760px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+}
+#header {
+	background-image: url(../images/header.png);
+	height: 232px;
+}
+.invite_friend {
+	display: block;
+	float: right;
+	margin-top: 7px;
+	margin-right: 20px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+.logo {
+	display: block;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: -18px;
+	position: relative;
+}
+.clear {
+	clear: both;	
+}
+#header_right {
+	float: right;
+	width: 550px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+#header_right h2 {
+	padding: 0px;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	font-size: 20px;
+	color: #224a66;
+}
+#header_right span {
+	font-size: 12px;
+	font-weight: lighter;
+	color: #333;
+	line-height: 16px;
+	font-family: "Trebuchet MS";
+}
+#search {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#search #q {
+	background-image: url(../images/search_bg.png);
+	float: left;
+	height: 25px;
+	width: 420px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: transparent;
+	margin-right: 5px;
+	margin-left: 25px;
+	padding-top: 14px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+}
+#content {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#content_top {
+	background-image: url(../images/list_top_bg.png);
+	height: 9px;
+	width: 760px;
+	background-repeat: no-repeat;
+}
+#content_wrappper {
+	background-image: url(../images/list_repeat_bg.png);
+	background-repeat: repeat-y;
+}
+#player {
+	background-image: url(../images/player_kisim.png);
+	height: 61px;
+	width: 713px;
+	margin-right: auto;
+	margin-left: auto;
+	background-repeat: no-repeat;
+	padding: 10px;
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	color: #333;
+}
+#footer {
+	background-image: url(../images/footer.png);
+	height: 59px;
+	width: 470px;
+	font-family: "Trebuchet MS";
+	font-size: 11px;
+	color: #333;
+	padding-top: 30px;
+	padding-left: 290px;
+}
+#footer a {
+	color: #333;
+}
+
+#results {
+	float: left;
+	width: 412px;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+#advertise {
+	float: right;
+	margin: 10px;
+}
+#playlist ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#playlist ul li a {
+	font-family: "Trebuchet MS";
+	color: #333;
+	text-decoration: none;
+	background-image: url(../images/list_bg.png);
+	display: block;
+	height: 17px;
+	width: 400px;
+	padding-top: 5px;
+	padding-left: 12px;
+	font-size: 11px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+#playlist ul li a:hover {
+	background-image: url(../images/list_bg_hover.png);
+}
+.not {
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	color: #333;
+	padding: 12px;
+}
